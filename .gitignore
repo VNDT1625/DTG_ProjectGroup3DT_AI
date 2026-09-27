@@ -1,0 +1,9 @@
+*.zip
+*.rar
+*.7z
+distrinetcicids2017/
+results/
+models/
+*.pkl
+*.h5
+*.pt
