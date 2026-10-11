@@ -1,0 +1,21 @@
+# Moi truong Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dataset
+data/
+*.parquet
+
+# Model va ket qua tao tu dong
+results/
+*.joblib
+*.pkl
+
+# File tam va cau hinh ca nhan
+.env
+.env.*
+!.env.example
+.vscode/
+.ipynb_checkpoints/
