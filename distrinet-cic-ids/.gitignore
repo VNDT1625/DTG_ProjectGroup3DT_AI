@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+.env
+.vscode/*.log
+# Avoid committing confidential / large datasets and serialized models
+data/raw/*
+data/processed/*
+data/samples/*
+models/*
+results/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/samples/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
