@@ -1,0 +1,38 @@
+Train (can bang): 609,781 dong | Val: 260,631 dong | 30 dac trung | Test: KHONG DOC
+  LogisticRegression   cau hinh 0 {'C': 0.1}                                    PR-AUC=0.9602 F1@0.5=0.8963 (7.7s)
+  LogisticRegression   cau hinh 1 {'C': 1.0}                                    PR-AUC=0.9584 F1@0.5=0.8974 (8.2s)
+  LogisticRegression   cau hinh 2 {'C': 10.0}                                   PR-AUC=0.9580 F1@0.5=0.8975 (8.3s)
+  RandomForest         cau hinh 0 {'max_depth': None, 'min_samples_leaf': 1}    PR-AUC=0.9997 F1@0.5=0.9991 (56.5s)
+  RandomForest         cau hinh 1 {'max_depth': 25, 'min_samples_leaf': 2}      PR-AUC=1.0000 F1@0.5=0.9990 (52.0s)
+  XGBoost              cau hinh 0 {'max_depth': 6}                              PR-AUC=1.0000 F1@0.5=0.9990 (11.7s)
+  XGBoost              cau hinh 1 {'max_depth': 10}                             PR-AUC=0.9999 F1@0.5=0.9990 (13.4s)
+
+[SO SANH 3 MO HINH TREN VALIDATION - cau hinh tot nhat moi mo hinh]
+           Mo_hinh  PR_AUC  ROC_AUC     F1  Precision  Recall  Ty_le_bao_nham_FPR  Nguong_toi_uu
+           XGBoost  1.0000   1.0000 0.9991     0.9984  0.9998              0.0003         0.5703
+      RandomForest  1.0000   1.0000 0.9991     0.9986  0.9996              0.0003         0.5616
+LogisticRegression  0.9602   0.9935 0.9455     0.9598  0.9316              0.0075         0.8274
+
+=> MO HINH DUOC CHON: XGBoost | nguong canh bao = 0.5703 (chon tren validation)
+
+[TY LE DOAN DUNG THEO TUNG LOAI - VALIDATION]
+                            So_dong  Ty_le_dung
+Label                                          
+Benign                       218462      0.9997
+DoS Hulk                      23767      1.0000
+DDoS                          14271      1.0000
+DoS GoldenEye                  1135      1.0000
+Infiltration - Portscan         711      0.9944
+DoS Slowloris                   599      1.0000
+FTP-Patator                     596      1.0000
+SSH-Patator                     444      0.9932
+DoS Slowhttptest                261      1.0000
+Portscan                        250      0.9960
+Botnet                          111      0.9910
+Web Attack - Brute Force         11      1.0000
+Infiltration                      6      1.0000
+Web Attack - XSS                  3      1.0000
+Heartbleed                        2      1.0000
+Web Attack - SQL Injection        2      1.0000
+
+Da luu: models/final_model.joblib (+ models/cand_*.joblib), reports/s05_*.csv

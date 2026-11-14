@@ -1,0 +1,7 @@
+{
+  "data\\raw\\Benign-Monday.parquet": "848bcbe20dc1e743e0bafdf845dce24cd22c848d8988ff794f04acc746acf36b",
+  "data\\raw\\Bruteforce-Tuesday.parquet": "5d980f91debe2e924721181e74798876198be97d4c2e6da40769a07f40f76523",
+  "data\\raw\\DoS-Wednesday.parquet": "5a224991ed4f1cc844827d2be5021ffa54b0b2f90576e5c28ca0c39f3ce581d2",
+  "data\\raw\\Infiltration-Webattacks-Thursday.parquet": "9eeed824efd777f66cee5bdb84fe4c4b643eec8ceca902611ee489e0179dfcb8",
+  "data\\raw\\Portscan-DDos-Botnet-Friday.parquet": "67fc21d66d14155fadecc3956afd77fa1884d01f09d5a13ba785795bf4656c66"
+}

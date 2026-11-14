@@ -1,0 +1,18 @@
+﻿Label,Benign-Monday,Bruteforce-Tuesday,DoS-Wednesday,Infiltration-Webattacks-Thursday,Portscan-DDos-Botnet-Friday
+Attempted-relabel-as-Benign,0,39,5732,1997,1198
+Benign,350718,300099,300373,273817,271498
+Botnet,0,0,0,0,736
+DDoS,0,0,0,0,95144
+DoS GoldenEye,0,0,7567,0,0
+DoS Hulk,0,0,158449,0,0
+DoS Slowhttptest,0,0,1741,0,0
+DoS Slowloris,0,0,3998,0,0
+FTP-Patator,0,3972,0,0,0
+Heartbleed,0,0,11,0,0
+Infiltration,0,0,0,36,0
+Infiltration - Portscan,0,0,0,5485,0
+Portscan,0,0,0,0,1683
+SSH-Patator,0,2961,0,0,0
+Web Attack - Brute Force,0,0,0,73,0
+Web Attack - SQL Injection,0,0,0,13,0
+Web Attack - XSS,0,0,0,18,0

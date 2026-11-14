@@ -1,0 +1,27 @@
+Python: 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+He dieu hanh: Windows-11-10.0.26200-SP0
+So nhan CPU: 8
+RAM: 15.8 GB (con trong 5.3 GB)
+
+[THU VIEN]
+  OK   pandas 3.1.1
+  OK   numpy 2.5.4
+  OK   pyarrow 26.0.1
+  OK   sklearn 1.9.1
+  OK   imblearn 0.14.2
+  OK   lightgbm 4.7.0
+  OK   streamlit 1.67.0
+  OK   openpyxl 3.1.5
+  OK   matplotlib 3.11.2
+  OK   joblib 1.6.0
+  OK   pytest 9.2.0
+
+[DU LIEU TRONG data/raw]
+  Benign-Monday.parquet  50.0 MB  sha256=848bcbe20dc1e743...
+  Bruteforce-Tuesday.parquet  41.8 MB  sha256=5d980f91debe2e92...
+  DoS-Wednesday.parquet  63.6 MB  sha256=5a224991ed4f1cc8...
+  Infiltration-Webattacks-Thursday.parquet  39.3 MB  sha256=9eeed824efd777f6...
+  Portscan-DDos-Botnet-Friday.parquet  53.1 MB  sha256=67fc21d66d14155f...
+  Da luu dau van tay (hash) vao data/raw_hashes.json
+
+KET LUAN: MOI TRUONG OK

@@ -1,0 +1,33 @@
+Du lieu goc: 1,787,358 dong
+
+Bo nhan chua 'Attempted'                                      1,787,358 ->  1,778,392  (bo 8,966)
+Bo cot dinh danh                                             khong co cot nao
+So cot dac trung con lai: 82
+Bo dong co o trong/vo cuc (Cach 1)                            1,778,392 ->  1,778,392  (bo 0)
+Bo nhom mau thuan nhan 0/1                                    1,778,392 ->  1,776,898  (bo 1,494)
+Bo dong trung lap                                             1,776,898 ->  1,737,543  (bo 39,355)
+
+KET QUA: 1,737,543 dong, 82 dac trung
+  Nhan 0 (Benign): 1,456,415   Nhan 1 (Tan cong): 281,128   Ty le tan cong: 16.18%
+
+So dong theo nhan chi tiet sau lam sach:
+Label
+Benign                        1456415
+DoS Hulk                       158449
+DDoS                            95144
+DoS GoldenEye                    7567
+Infiltration - Portscan          4739
+DoS Slowloris                    3998
+FTP-Patator                      3972
+SSH-Patator                      2961
+DoS Slowhttptest                 1741
+Portscan                         1670
+Botnet                            736
+Web Attack - Brute Force           73
+Infiltration                       36
+Web Attack - XSS                   18
+Web Attack - SQL Injection         13
+Heartbleed                         11
+
+Da luu: data/processed/clean.parquet, models/feature_cols.json
+Luu y: cot 'Label' (chi tiet) va 'Ngay' chi de PHAN TICH, KHONG dung de huan luyen.

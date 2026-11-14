@@ -1,0 +1,17 @@
+﻿Label,So_dong,Ty_le_dung
+Benign,218463,0.9995651437543199
+DoS Hulk,23768,1.0
+DDoS,14272,1.0
+DoS GoldenEye,1135,1.0
+Infiltration - Portscan,711,0.9901547116736991
+DoS Slowloris,600,1.0
+FTP-Patator,596,1.0
+SSH-Patator,444,1.0
+DoS Slowhttptest,261,0.9961685823754789
+Portscan,251,0.9960159362549801
+Botnet,110,1.0
+Web Attack - Brute Force,11,1.0
+Infiltration,5,1.0
+Web Attack - SQL Injection,2,0.5
+Web Attack - XSS,2,1.0
+Heartbleed,1,1.0

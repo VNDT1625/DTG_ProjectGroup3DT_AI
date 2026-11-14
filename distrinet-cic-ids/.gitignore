@@ -1,0 +1,28 @@
+# Moi truong Python (moi nguoi tu tao lai bang: py -m venv .venv)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Du lieu lon: tai lai tu Kaggle (xem README)
+data/raw/
+data/processed/
+
+# Bi mat va thong tin ca nhan
+kaggle.json
+.streamlit/secrets.toml
+.env
+
+# File he dieu hanh va trinh soan thao
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# File ket qua tai tu ung dung khi thu nghiem
+results_*.csv
+results_*.xlsx
+live_monitor_*.csv
+report_*.pdf
+.pytest_cache/

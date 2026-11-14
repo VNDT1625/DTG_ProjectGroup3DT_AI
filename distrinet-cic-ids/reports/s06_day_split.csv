@@ -1,0 +1,6 @@
+﻿Ngay_kiem_tra,So_dong,Ty_le_tan_cong,Recall,F1,Bao_nham_FPR,Loai_tan_cong_chua_tung_hoc
+Benign-Monday,297905,0.0,,,8.056259545828368e-05,-
+Bruteforce-Tuesday,261146,0.02256592097906918,0.0,0.0,5.484754341770714e-05,"FTP-Patator, SSH-Patator"
+DoS-Wednesday,390764,0.37362960764041725,0.5790782254916063,0.7333810422223668,7.354052695873151e-05,"DoS GoldenEye, DoS Hulk, DoS Slowhttptest, DoS Slowloris, Heartbleed"
+Infiltration-Webattacks-Thursday,222228,0.01866551469661789,0.017357762777242044,0.033818694222639736,0.00017424798239178285,"Infiltration, Infiltration - Portscan, Web Attack - Brute Force, Web Attack - SQL Injection, Web Attack - XSS"
+Portscan-DDos-Botnet-Friday,304868,0.27197672435283465,0.003220087557436955,0.006419040750090155,2.7032993768894935e-05,"Botnet, DDoS, Portscan"

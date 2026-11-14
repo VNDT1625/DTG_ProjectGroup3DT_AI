@@ -1,0 +1,73 @@
+﻿Luot,Mo_hinh,Loai_nguong,Loai_tan_cong,So_dong,Da_hoc_o_ngay_huan_luyen,Ty_le_bat_duoc
+Luot 1,LogisticRegression,Nguong 0.5,Infiltration,25,Chưa học,0.68
+Luot 1,LogisticRegression,Nguong 0.5,Infiltration - Portscan,3317,Chưa học,0.05848658426288815
+Luot 1,LogisticRegression,Nguong 0.5,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong 0.5,Web Attack - SQL Injection,9,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong 0.5,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong FPR 1%,Infiltration,25,Chưa học,0.44
+Luot 1,LogisticRegression,Nguong FPR 1%,Infiltration - Portscan,3317,Chưa học,0.056074766355140186
+Luot 1,LogisticRegression,Nguong FPR 1%,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong FPR 1%,Web Attack - SQL Injection,9,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong FPR 1%,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong FPR 0.1%,Infiltration,25,Chưa học,0.24
+Luot 1,LogisticRegression,Nguong FPR 0.1%,Infiltration - Portscan,3317,Chưa học,0.02954476936991257
+Luot 1,LogisticRegression,Nguong FPR 0.1%,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong FPR 0.1%,Web Attack - SQL Injection,9,Chưa học,0.0
+Luot 1,LogisticRegression,Nguong FPR 0.1%,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,RandomForest,Nguong 0.5,Infiltration,25,Chưa học,0.0
+Luot 1,RandomForest,Nguong 0.5,Infiltration - Portscan,3317,Chưa học,0.0
+Luot 1,RandomForest,Nguong 0.5,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,RandomForest,Nguong 0.5,Web Attack - SQL Injection,9,Chưa học,0.0
+Luot 1,RandomForest,Nguong 0.5,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,RandomForest,Nguong FPR 1%,Infiltration,25,Chưa học,0.84
+Luot 1,RandomForest,Nguong FPR 1%,Infiltration - Portscan,3317,Chưa học,0.9143804642749472
+Luot 1,RandomForest,Nguong FPR 1%,Web Attack - Brute Force,51,Chưa học,1.0
+Luot 1,RandomForest,Nguong FPR 1%,Web Attack - SQL Injection,9,Chưa học,0.7777777777777778
+Luot 1,RandomForest,Nguong FPR 1%,Web Attack - XSS,13,Chưa học,1.0
+Luot 1,RandomForest,Nguong FPR 0.1%,Infiltration,25,Chưa học,0.84
+Luot 1,RandomForest,Nguong FPR 0.1%,Infiltration - Portscan,3317,Chưa học,0.07717817304793488
+Luot 1,RandomForest,Nguong FPR 0.1%,Web Attack - Brute Force,51,Chưa học,0.0196078431372549
+Luot 1,RandomForest,Nguong FPR 0.1%,Web Attack - SQL Injection,9,Chưa học,0.2222222222222222
+Luot 1,RandomForest,Nguong FPR 0.1%,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,XGBoost,Nguong 0.5,Infiltration,25,Chưa học,0.0
+Luot 1,XGBoost,Nguong 0.5,Infiltration - Portscan,3317,Chưa học,0.0
+Luot 1,XGBoost,Nguong 0.5,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,XGBoost,Nguong 0.5,Web Attack - SQL Injection,9,Chưa học,0.1111111111111111
+Luot 1,XGBoost,Nguong 0.5,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,XGBoost,Nguong FPR 1%,Infiltration,25,Chưa học,0.36
+Luot 1,XGBoost,Nguong FPR 1%,Infiltration - Portscan,3317,Chưa học,0.11757612300271329
+Luot 1,XGBoost,Nguong FPR 1%,Web Attack - Brute Force,51,Chưa học,0.0196078431372549
+Luot 1,XGBoost,Nguong FPR 1%,Web Attack - SQL Injection,9,Chưa học,0.8888888888888888
+Luot 1,XGBoost,Nguong FPR 1%,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,XGBoost,Nguong FPR 0.1%,Infiltration,25,Chưa học,0.04
+Luot 1,XGBoost,Nguong FPR 0.1%,Infiltration - Portscan,3317,Chưa học,0.013264998492613807
+Luot 1,XGBoost,Nguong FPR 0.1%,Web Attack - Brute Force,51,Chưa học,0.0196078431372549
+Luot 1,XGBoost,Nguong FPR 0.1%,Web Attack - SQL Injection,9,Chưa học,0.3333333333333333
+Luot 1,XGBoost,Nguong FPR 0.1%,Web Attack - XSS,13,Chưa học,0.0
+Luot 2,LogisticRegression,Nguong 0.5,Botnet,515,Chưa học,0.0
+Luot 2,LogisticRegression,Nguong 0.5,DDoS,66601,Chưa học,0.9997897929460519
+Luot 2,LogisticRegression,Nguong 0.5,Portscan,1169,Chưa học,0.49358426005132594
+Luot 2,LogisticRegression,Nguong FPR 1%,Botnet,515,Chưa học,0.0
+Luot 2,LogisticRegression,Nguong FPR 1%,DDoS,66601,Chưa học,0.8465938949865618
+Luot 2,LogisticRegression,Nguong FPR 1%,Portscan,1169,Chưa học,0.3541488451668092
+Luot 2,LogisticRegression,Nguong FPR 0.1%,Botnet,515,Chưa học,0.0
+Luot 2,LogisticRegression,Nguong FPR 0.1%,DDoS,66601,Chưa học,0.132730739778682
+Luot 2,LogisticRegression,Nguong FPR 0.1%,Portscan,1169,Chưa học,0.05132591958939264
+Luot 2,RandomForest,Nguong 0.5,Botnet,515,Chưa học,0.0
+Luot 2,RandomForest,Nguong 0.5,DDoS,66601,Chưa học,0.9887389078242068
+Luot 2,RandomForest,Nguong 0.5,Portscan,1169,Chưa học,0.14285714285714285
+Luot 2,RandomForest,Nguong FPR 1%,Botnet,515,Chưa học,0.1533980582524272
+Luot 2,RandomForest,Nguong FPR 1%,DDoS,66601,Chưa học,1.0
+Luot 2,RandomForest,Nguong FPR 1%,Portscan,1169,Chưa học,0.9940119760479041
+Luot 2,RandomForest,Nguong FPR 0.1%,Botnet,515,Chưa học,0.0
+Luot 2,RandomForest,Nguong FPR 0.1%,DDoS,66601,Chưa học,0.9998048077356196
+Luot 2,RandomForest,Nguong FPR 0.1%,Portscan,1169,Chưa học,0.6270316509837468
+Luot 2,XGBoost,Nguong 0.5,Botnet,515,Chưa học,0.0
+Luot 2,XGBoost,Nguong 0.5,DDoS,66601,Chưa học,0.02986441645020345
+Luot 2,XGBoost,Nguong 0.5,Portscan,1169,Chưa học,0.0855431993156544
+Luot 2,XGBoost,Nguong FPR 1%,Botnet,515,Chưa học,0.9009708737864077
+Luot 2,XGBoost,Nguong FPR 1%,DDoS,66601,Chưa học,0.9999399408417291
+Luot 2,XGBoost,Nguong FPR 1%,Portscan,1169,Chưa học,0.6920444824636441
+Luot 2,XGBoost,Nguong FPR 0.1%,Botnet,515,Chưa học,0.0
+Luot 2,XGBoost,Nguong FPR 0.1%,DDoS,66601,Chưa học,0.9393102205672588
+Luot 2,XGBoost,Nguong FPR 0.1%,Portscan,1169,Chưa học,0.30710008554319934

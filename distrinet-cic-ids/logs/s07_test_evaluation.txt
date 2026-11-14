@@ -1,0 +1,46 @@
+OK  Dau van tay test khop voi luc chia (0dbbab8a4ca79fb6...) => test chua bi sua
+Mo test lan dau luc 2026-11-12 10:33:59 | 260,632 dong | ty le tan cong 16.18%
+Mo hinh: XGBoost | nguong 0.5703 (chon tren validation, KHONG chinh lai)
+
+[KET QUA MO HINH TREN TEST]
+  Accuracy             0.9996
+  Precision            0.9978
+  Recall               0.9998
+  F1                   0.9988
+  ROC_AUC              1.0000
+  PR_AUC               0.9999
+  Ty_le_bao_nham_FPR   0.0004
+  TP                   42,159
+  FP                   95
+  FN                   10
+  TN                   218,368
+
+[TY LE DOAN DUNG THEO TUNG LOAI - TEST]
+                            So_dong  Ty_le_dung
+Label                                          
+Benign                       218463      0.9996
+DoS Hulk                      23768      1.0000
+DDoS                          14272      1.0000
+DoS GoldenEye                  1135      1.0000
+Infiltration - Portscan         711      0.9902
+DoS Slowloris                   600      1.0000
+FTP-Patator                     596      1.0000
+SSH-Patator                     444      1.0000
+DoS Slowhttptest                261      0.9962
+Portscan                        251      0.9960
+Botnet                          110      1.0000
+Web Attack - Brute Force         11      1.0000
+Infiltration                      5      1.0000
+Web Attack - SQL Injection        2      0.5000
+Web Attack - XSS                  2      1.0000
+Heartbleed                        1      1.0000
+
+[CA 3 MO HINH TREN TEST - nguong cua moi mo hinh deu chon tren validation]
+           Mo_hinh  PR_AUC  ROC_AUC     F1  Precision  Recall  Ty_le_bao_nham_FPR
+           XGBoost  0.9999   1.0000 0.9988     0.9978  0.9998              0.0004
+      RandomForest  0.9998   1.0000 0.9989     0.9980  0.9997              0.0004
+LogisticRegression  0.9594   0.9935 0.9452     0.9580  0.9327              0.0079
+
+Da luu bieu do: reports/s07_ma_tran_nham_lan.png, s07_duong_ROC.png, s07_duong_PR.png, s07_ty_le_theo_loai.png
+Da khoa: models/test_lock.json - tu nay script nay se KHONG danh gia lai test.
+Thoi gian chay: 4 giay

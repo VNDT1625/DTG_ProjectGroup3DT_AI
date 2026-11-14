@@ -1,0 +1,46 @@
+Doc Benign-Monday.parquet: 350,718 dong x 83 cot
+Doc Bruteforce-Tuesday.parquet: 307,071 dong x 83 cot
+Doc DoS-Wednesday.parquet: 477,871 dong x 83 cot
+Doc Infiltration-Webattacks-Thursday.parquet: 281,439 dong x 83 cot
+Doc Portscan-DDos-Botnet-Friday.parquet: 370,259 dong x 83 cot
+
+TONG: 1,787,358 dong x 83 cot (chua tinh cot __ngay__)
+Bo nho: 0.54 GB
+
+[KIEU DU LIEU] {'float32': 43, 'int8': 14, 'int32': 13, 'int16': 9, 'float64': 2, 'int64': 1, 'str': 1}
+Cot khong phai so: ['Label']
+
+Cot nhan: 'Label'
+Cac gia tri nhan (nguyen ban, co ca khoang trang/hoa thuong):
+  'Benign'                                       1,496,505
+  'DoS Hulk'                                       158,449
+  'DDoS'                                            95,144
+  'Attempted-relabel-as-Benign'                      8,966
+  'DoS GoldenEye'                                    7,567
+  'Infiltration - Portscan'                          5,485
+  'DoS Slowloris'                                    3,998
+  'FTP-Patator'                                      3,972
+  'SSH-Patator'                                      2,961
+  'DoS Slowhttptest'                                 1,741
+  'Portscan'                                         1,683
+  'Botnet'                                             736
+  'Web Attack - Brute Force'                            73
+  'Infiltration'                                        36
+  'Web Attack - XSS'                                    18
+  'Web Attack - SQL Injection'                          13
+  'Heartbleed'                                          11
+So dong co chu 'Attempted': 8,966
+
+[COT DINH DANH NGHI NGO] KHONG CO
+
+[O TRONG / VO CUC THEO COT]
+  Khong co
+So dong co it nhat 1 o trong/vo cuc: 0 (0.0000%)
+
+[TRUNG LAP]
+Dong trung hoan toan (dac trung + nhan), tinh ban thu 2 tro di: 39,344 (2.20%)
+Dong trung dac trung (bat ke nhan): 40,103
+Nhom dac trung giong nhau nhung NHAN KHAC NHAU (mau thuan): 757
+
+Da luu: reports/s01_nhan_theo_ngay.csv, reports/s01_mo_ta_cot.csv, logs/s01_schema.json
+Thoi gian chay: 30 giay

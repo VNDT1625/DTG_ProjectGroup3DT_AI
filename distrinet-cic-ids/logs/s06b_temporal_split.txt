@@ -1,0 +1,53 @@
+Chi dung train.parquet: 1,216,280 dong | val va test: KHONG DOC | nguong co dinh 0.5
+Cau hinh 3 mo hinh (tu Giai doan 5): LogisticRegression {'C': 0.1}; RandomForest {'max_depth': 25, 'min_samples_leaf': 2, 'n_estimators': 150}; XGBoost {'max_depth': 6, 'n_estimators': 400}
+
+So dong moi ngay trong train: Thu Hai=245,402, Thu Ba=215,280, Thu Tu=321,752, Thu Nam=182,705, Thu Sau=251,141
+
+==========================================================================================
+Luot 1: HOC tren Thu Hai, Thu Ba, Thu Tu  ->  KIEM TRA tren Thu Nam
+  Hoc: 782,434 dong (15.99% tan cong) | Kiem tra: 182,705 dong (1.87% tan cong)
+  OK  Moi khau tien xu ly chi hoc tren 782,434 dong cua cac ngay hoc
+  OK  Can bang chi tren ngay hoc: 527,863 dong (24.2% tan cong); ngay kiem tra giu nguyen
+  LogisticRegression   Recall (Attack)=0.0618  FNR=0.9382  FPR=0.0155  F1=0.0659  PR-AUC=0.0588  (5.0s)
+  RandomForest         Recall (Attack)=0.0000  FNR=1.0000  FPR=0.0000  F1=0.0000  PR-AUC=0.5362  (38.8s)
+  XGBoost              Recall (Attack)=0.0003  FNR=0.9997  FPR=0.0000  F1=0.0006  PR-AUC=0.1420  (9.0s)
+  Ty le bat duoc theo tung loai tan cong:
+               Loai_tan_cong Da_hoc_o_ngay_huan_luyen  So_dong  LogisticRegression  RandomForest  XGBoost
+                Infiltration                 Chưa học       25               0.680         0.000    0.000
+     Infiltration - Portscan                 Chưa học     3317               0.058         0.000    0.000
+    Web Attack - Brute Force                 Chưa học       51               0.000         0.000    0.000
+  Web Attack - SQL Injection                 Chưa học        9               0.000         0.000    0.111
+            Web Attack - XSS                 Chưa học       13               0.000         0.000    0.000
+
+==========================================================================================
+Luot 2: HOC tren Thu Ba, Thu Tu, Thu Nam  ->  KIEM TRA tren Thu Sau
+  Hoc: 719,737 dong (17.85% tan cong) | Kiem tra: 251,141 dong (27.19% tan cong)
+  OK  Moi khau tien xu ly chi hoc tren 719,737 dong cua cac ngay hoc
+  OK  Can bang chi tren ngay hoc: 539,180 dong (25.8% tan cong); ngay kiem tra giu nguyen
+  LogisticRegression   Recall (Attack)=0.9836  FNR=0.0164  FPR=0.0231  F1=0.9617  PR-AUC=0.9580  (6.6s)
+  RandomForest         Recall (Attack)=0.9668  FNR=0.0332  FPR=0.0000  F1=0.9831  PR-AUC=0.9995  (47.0s)
+  XGBoost              Recall (Attack)=0.0306  FNR=0.9694  FPR=0.0000  F1=0.0594  PR-AUC=0.9981  (11.1s)
+  Ty le bat duoc theo tung loai tan cong:
+  Loai_tan_cong Da_hoc_o_ngay_huan_luyen  So_dong  LogisticRegression  RandomForest  XGBoost
+         Botnet                 Chưa học      515               0.000         0.000    0.000
+           DDoS                 Chưa học    66601               1.000         0.989    0.030
+       Portscan                 Chưa học     1169               0.494         0.143    0.086
+
+==========================================================================================
+Luot 3: HOC tren Thu Tu, Thu Nam, Thu Sau  ->  KIEM TRA tren Thu Hai
+  Hoc: 755,598 dong (25.40% tan cong) | Kiem tra: 245,402 dong (0.00% tan cong)
+  OK  Moi khau tien xu ly chi hoc tren 755,598 dong cua cac ngay hoc
+  OK  Can bang chi tren ngay hoc: 604,928 dong (33.9% tan cong); ngay kiem tra giu nguyen
+  LogisticRegression   Recall (Benign)=96.4825% (236,770/245,402 nhan dung)  FPR=3.5175% (8,632 luong bi bao nham)  xac suat tan cong: trung vi 0.0007, phan vi 99% 0.7759  [Recall (Attack), FNR, F1, PR-AUC: khong ap dung vi khong co tan cong]  (6.3s)
+  RandomForest         Recall (Benign)=99.9927% (245,384/245,402 nhan dung)  FPR=0.0073% (18 luong bi bao nham)  xac suat tan cong: trung vi 0.0000, phan vi 99% 0.0378  [Recall (Attack), FNR, F1, PR-AUC: khong ap dung vi khong co tan cong]  (44.0s)
+  XGBoost              Recall (Benign)=99.9906% (245,379/245,402 nhan dung)  FPR=0.0094% (23 luong bi bao nham)  xac suat tan cong: trung vi 0.0000, phan vi 99% 0.0008  [Recall (Attack), FNR, F1, PR-AUC: khong ap dung vi khong co tan cong]  (13.3s)
+
+==========================================================================================
+TOM TAT
+  Luot 1 (kiem tra Thu Nam): Recall (Attack) XGBoost = 0.0%, FPR XGBoost = 0.001%
+  Luot 2 (kiem tra Thu Sau): Recall (Attack) XGBoost = 3.1%, FPR XGBoost = 0.004%
+  Luot 3 (kiem tra Thu Hai, toan Benign): Recall (Benign) XGBoost = 99.991%, RandomForest = 99.993%, LogisticRegression = 96.483%
+  XGBoost - loai tan cong chưa học: ty le bat duoc trung binh (theo so dong) 2.9% tren 71,700 dong
+
+Da luu: reports/s06b_temporal_tong_hop.csv, reports/s06b_temporal_theo_loai.csv, reports/s06b_temporal.png
+Thoi gian chay: 263 giay

@@ -1,0 +1,4 @@
+﻿So_dong,Dung_luong_MB,Doc_CSV_s,Kiem_tra_s,Du_doan_s,Xuat_CSV_s,Cach_xuat,Xuat_CSV_pandas_s,Tong_s,Dong_moi_giay,Bo_nho_dinh_lon_nhat_MB
+100000,39,0.74,0.71,0.88,1.01,pyarrow,5.11,3.34,29910,328
+500000,196,3.76,3.22,3.36,5.06,pyarrow,24.52,15.41,32453,1617
+1000000,393,6.52,5.08,6.71,9.09,pyarrow,32.21,27.4,36492,3233

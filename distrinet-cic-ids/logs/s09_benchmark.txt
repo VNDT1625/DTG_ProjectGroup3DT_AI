@@ -1,0 +1,27 @@
+Mo hinh: XGBoost | file goc: 5,481 dong x 82 cot
+
+--- 100,000 dong | file CSV 39 MB ---
+  Doc CSV        0.7 s   bo nho dinh      83 MB
+  Kiem tra       0.7 s   bo nho dinh     141 MB
+  Du doan        0.9 s   bo nho dinh     328 MB
+  Xuat CSV       1.0 s   (cach pyarrow; ghep bang 0.0 s)
+  Xuat CSV bang pandas (cach cu, de so sanh): 5.1 s
+  TONG           3.3 s   | 29,910 dong/giay
+
+--- 500,000 dong | file CSV 196 MB ---
+  Doc CSV        3.8 s   bo nho dinh     415 MB
+  Kiem tra       3.2 s   bo nho dinh     710 MB
+  Du doan        3.4 s   bo nho dinh   1,617 MB
+  Xuat CSV       5.1 s   (cach pyarrow; ghep bang 0.1 s)
+  Xuat CSV bang pandas (cach cu, de so sanh): 24.5 s
+  TONG          15.4 s   | 32,453 dong/giay
+
+--- 1,000,000 dong | file CSV 393 MB ---
+  Doc CSV        6.5 s   bo nho dinh     831 MB
+  Kiem tra       5.1 s   bo nho dinh   1,418 MB
+  Du doan        6.7 s   bo nho dinh   3,233 MB
+  Xuat CSV       9.1 s   (cach pyarrow; ghep bang 0.2 s)
+  Xuat CSV bang pandas (cach cu, de so sanh): 32.2 s
+  TONG          27.4 s   | 36,492 dong/giay
+
+Da luu: reports/s09_benchmark.csv

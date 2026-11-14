@@ -1,0 +1,26 @@
+# Thu vien can cho du an. Phien ban duoc GHIM dung nhu luc huan luyen mo hinh,
+# de file models/final_model.joblib nap dung tren may khac.
+# Can Python 3.13.
+
+# --- Xu ly du lieu va mo hinh ---
+numpy==2.5.4
+pandas==3.1.1
+pyarrow==26.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+xgboost==3.4.1
+joblib==1.6.0
+
+# --- Ung dung web va xuat file ---
+streamlit==1.67.0
+altair==6.3.0
+jinja2==3.1.6
+openpyxl==3.1.5
+reportlab==5.1.0
+matplotlib==3.11.2
+
+# --- Kiem thu, tai du lieu, giam sat truc tiep ---
+pytest==9.2.0
+kaggle==2.2.5
+scapy==2.8.0

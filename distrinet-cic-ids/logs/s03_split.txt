@@ -1,0 +1,36 @@
+Du lieu sach: 1,737,543 dong
+
+[KICH THUOC VA TY LE]
+  train: 1,216,280 dong (70.00%)  nhan 1 = 196,790  ty le tan cong = 16.180%
+  val  :   260,631 dong (15.00%)  nhan 1 =  42,169  ty le tan cong = 16.180%
+  test :   260,632 dong (15.00%)  nhan 1 =  42,169  ty le tan cong = 16.180%
+
+[KIEM TRA CHONG RO RI]
+  OK  Tong 3 phan = so dong ban dau
+  OK  Khong dong nao (theo chi so) nam o 2 phan
+  OK  Khong co dong trung NOI DUNG giua cac phan {'train-val': 0, 'train-test': 0, 'val-test': 0}
+  OK  Ty le tan cong 3 phan chenh nhau < 0.1%
+
+[SO DONG THEO LOAI TAN CONG]
+                              train     val    test
+Label                                              
+Benign                      1019490  218462  218463
+DoS Hulk                     110914   23767   23768
+DDoS                          66601   14271   14272
+DoS GoldenEye                  5297    1135    1135
+Infiltration - Portscan        3317     711     711
+DoS Slowloris                  2799     599     600
+FTP-Patator                    2780     596     596
+SSH-Patator                    2073     444     444
+DoS Slowhttptest               1219     261     261
+Portscan                       1169     250     251
+Botnet                          515     111     110
+Web Attack - Brute Force         51      11      11
+Infiltration                     25       6       5
+Web Attack - XSS                 13       3       2
+Web Attack - SQL Injection        9       2       2
+Heartbleed                        8       2       1
+
+Da luu train/val/test vao data/processed/split/ va dau van tay vao hashes.json
+Hash test (de kiem tra test khong bi sua): 0dbbab8a4ca79fb6...
+TU DAY: file test.parquet bi KHOA, chi mo 1 lan o Giai doan 7.

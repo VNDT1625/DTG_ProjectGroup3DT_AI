@@ -1,0 +1,40 @@
+Mo hinh dang kiem tra: XGBoost | nguong 0.5703 | Test: KHONG DOC
+
+[6.1] XAO TRON NHAN TRAIN (mo hinh khong the hoc duoc gi that)
+  PR-AUC = 0.1547 (muc co so = ty le tan cong 0.1618) | ROC-AUC = 0.5023 (muc co so = 0.5)
+  => DAT: diem tut ve muc co so, khong co ro ri qua nhan
+
+[6.2] TUNG DAC TRUNG DON LE (cay quyet dinh do sau 3, hoc tren train, cham tren val)
+               Dac_trung  ROC_AUC_val
+  Bwd Packet Length Mean       0.9858
+       Packet Length Max       0.9829
+Bwd Packets Length Total       0.9816
+      Init Bwd Win Bytes       0.9767
+   Bwd Packet Length Std       0.9691
+Fwd Packets Length Total       0.9529
+           Fwd PSH Flags       0.9422
+          RST Flag Count       0.9350
+  => DAT: khong co cot nao mot minh phan loai gan hoan hao (>0.99)
+
+[6.3] SO SANH DIEM TREN TRAIN (goc, chua can bang) VA VAL
+        Train    Val  Chenh_lech
+PR_AUC 1.0000 1.0000      0.0000
+F1     0.9991 0.9991     -0.0000
+Recall 0.9999 0.9998      0.0002
+  => DAT: chenh lech < 0.02, khong hoc vet
+
+[6.4] (THAM KHAO) HOC TREN CAC NGAY KHAC, KIEM TRA TREN 1 NGAY CHUA THAY - chi dung train+val
+  Benign-Monday                            Recall=nan  F1=nan  FPR=0.0001  chua tung hoc: -
+  Bruteforce-Tuesday                       Recall=0.0000  F1=0.0000  FPR=0.0001  chua tung hoc: FTP-Patator, SSH-Patator
+      ty le bat duoc tung loai: FTP-Patator=0.00, SSH-Patator=0.00
+  DoS-Wednesday                            Recall=0.5791  F1=0.7334  FPR=0.0001  chua tung hoc: DoS GoldenEye, DoS Hulk, DoS Slowhttptest, DoS Slowloris, Heartbleed
+      ty le bat duoc tung loai: DoS GoldenEye=0.60, DoS Hulk=0.60, DoS Slowhttptest=0.00, DoS Slowloris=0.00, Heartbleed=0.00
+  Infiltration-Webattacks-Thursday         Recall=0.0174  F1=0.0338  FPR=0.0002  chua tung hoc: Infiltration, Infiltration - Portscan, Web Attack - Brute Force, Web Attack - SQL Injection, Web Attack - XSS
+      ty le bat duoc tung loai: Infiltration=0.03, Infiltration - Portscan=0.02, Web Attack - Brute Force=0.00, Web Attack - SQL Injection=0.09, Web Attack - XSS=0.00
+  Portscan-DDos-Botnet-Friday              Recall=0.0032  F1=0.0064  FPR=0.0000  chua tung hoc: Botnet, DDoS, Portscan
+      ty le bat duoc tung loai: Botnet=0.00, DDoS=0.00, Portscan=0.09
+  Ghi chu: moi ngay CIC-IDS2017 la cac kieu tan cong KHAC NHAU, nen diem tut manh o day
+  chu yeu do mo hinh gap kieu tan cong chua tung hoc - day la HAN CHE can neu trong bao cao.
+
+TONG KET: 6.1 DAT | 6.2 DAT | 6.3 DAT | 6.4 tham khao
+Thoi gian chay: 208 giay

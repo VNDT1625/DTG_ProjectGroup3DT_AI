@@ -1,0 +1,17 @@
+﻿Label,train,val,test
+Benign,1019490,218462,218463
+DoS Hulk,110914,23767,23768
+DDoS,66601,14271,14272
+DoS GoldenEye,5297,1135,1135
+Infiltration - Portscan,3317,711,711
+DoS Slowloris,2799,599,600
+FTP-Patator,2780,596,596
+SSH-Patator,2073,444,444
+DoS Slowhttptest,1219,261,261
+Portscan,1169,250,251
+Botnet,515,111,110
+Web Attack - Brute Force,51,11,11
+Infiltration,25,6,5
+Web Attack - XSS,13,3,2
+Web Attack - SQL Injection,9,2,2
+Heartbleed,8,2,1

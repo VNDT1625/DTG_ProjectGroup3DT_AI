@@ -1,0 +1,25 @@
+﻿Luot,Mo_hinh,Loai_tan_cong,So_dong,Da_hoc_o_ngay_huan_luyen,Ty_le_bat_duoc
+Luot 1,LogisticRegression,Infiltration,25,Chưa học,0.68
+Luot 1,LogisticRegression,Infiltration - Portscan,3317,Chưa học,0.05848658426288815
+Luot 1,LogisticRegression,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,LogisticRegression,Web Attack - SQL Injection,9,Chưa học,0.0
+Luot 1,LogisticRegression,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,RandomForest,Infiltration,25,Chưa học,0.0
+Luot 1,RandomForest,Infiltration - Portscan,3317,Chưa học,0.0
+Luot 1,RandomForest,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,RandomForest,Web Attack - SQL Injection,9,Chưa học,0.0
+Luot 1,RandomForest,Web Attack - XSS,13,Chưa học,0.0
+Luot 1,XGBoost,Infiltration,25,Chưa học,0.0
+Luot 1,XGBoost,Infiltration - Portscan,3317,Chưa học,0.0
+Luot 1,XGBoost,Web Attack - Brute Force,51,Chưa học,0.0
+Luot 1,XGBoost,Web Attack - SQL Injection,9,Chưa học,0.1111111111111111
+Luot 1,XGBoost,Web Attack - XSS,13,Chưa học,0.0
+Luot 2,LogisticRegression,Botnet,515,Chưa học,0.0
+Luot 2,LogisticRegression,DDoS,66601,Chưa học,0.9997897929460519
+Luot 2,LogisticRegression,Portscan,1169,Chưa học,0.49358426005132594
+Luot 2,RandomForest,Botnet,515,Chưa học,0.0
+Luot 2,RandomForest,DDoS,66601,Chưa học,0.9887389078242068
+Luot 2,RandomForest,Portscan,1169,Chưa học,0.14285714285714285
+Luot 2,XGBoost,Botnet,515,Chưa học,0.0
+Luot 2,XGBoost,DDoS,66601,Chưa học,0.02986441645020345
+Luot 2,XGBoost,Portscan,1169,Chưa học,0.0855431993156544

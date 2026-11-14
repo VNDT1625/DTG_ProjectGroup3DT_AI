@@ -1,0 +1,19 @@
+{
+  "thoi_diem_mo_test": "2026-11-12T10:34:03",
+  "mo_hinh": "XGBoost",
+  "nguong": 0.5703,
+  "hash_test": "0dbbab8a4ca79fb6ff1e5167c9440a3d05879178d6696eaad0d9e5846d8281de",
+  "ket_qua": {
+    "Accuracy": 0.999597,
+    "Precision": 0.997752,
+    "Recall": 0.999763,
+    "F1": 0.998756,
+    "ROC_AUC": 0.999985,
+    "PR_AUC": 0.999885,
+    "Ty_le_bao_nham_FPR": 0.000435,
+    "TP": 42159,
+    "FP": 95,
+    "FN": 10,
+    "TN": 218368
+  }
+}

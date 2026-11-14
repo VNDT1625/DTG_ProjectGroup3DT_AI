@@ -1,0 +1,16 @@
+# Chi nhung thu vien UNG DUNG can khi chay trong Docker (khong co kaggle, pytest, scapy, imbalanced-learn).
+# Phien ban khop voi .venv da huan luyen mo hinh, de file final_model.joblib nap dung.
+numpy==2.5.4
+pandas==3.1.1
+pyarrow==26.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+# ban chi dung CPU cua XGBoost (ban thuong tren Linux keo theo ~300 MB thu vien GPU khong can)
+xgboost-cpu==3.4.1
+joblib==1.6.0
+streamlit==1.67.0
+altair==6.3.0
+jinja2==3.1.6
+openpyxl==3.1.5
+reportlab==5.1.0
+matplotlib==3.11.2

@@ -1,0 +1,15 @@
+[VALIDATION]
+Mo hinh                  FP        TN       FPR       FN      TP       FNR
+XGBoost                  68   218,394   0.0311%        9  42,160   0.0213%
+RandomForest             61   218,401   0.0279%       16  42,153   0.0379%
+LogisticRegression    1,646   216,816   0.7534%    2,886  39,283   6.8439%
+
+[TEST]
+Mo hinh                  FP        TN       FPR       FN      TP       FNR
+XGBoost                  95   218,368   0.0435%       10  42,159   0.0237%
+RandomForest             83   218,380   0.0380%       14  42,155   0.0332%
+LogisticRegression    1,726   216,737   0.7901%    2,838  39,331   6.7301%
+
+FPR = FP/(FP+TN): ty le luong binh thuong bi bao nham la tan cong.
+FNR = FN/(FN+TP): ty le luong tan cong bi bo sot. Da kiem tra: FNR = 1 - Recall.
+Da luu: reports/s07b_fpr_fnr.csv

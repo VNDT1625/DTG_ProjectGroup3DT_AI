@@ -1,0 +1,23 @@
+# Khong dua vao image: moi truong ao, du lieu goc/da xu ly, bao cao, nhat ky, ban sao luu, git
+.venv/
+**/__pycache__/
+*.pyc
+.git/
+.gitignore
+data/raw/
+data/processed/
+reports/
+logs/
+_backup/
+tests/
+notebooks/
+kaggle.json
+.streamlit/secrets.toml
+results_*.csv
+results_*.xlsx
+report_*.pdf
+live_monitor_*.csv
+models/candidate_*.joblib
+models/preprocess.joblib
+*.md
+!README.md

@@ -1,0 +1,17 @@
+﻿,train_goc,train_can_bang
+Benign,1019490,400000
+Botnet,515,2000
+DDoS,66601,66601
+DoS GoldenEye,5297,5297
+DoS Hulk,110914,110914
+DoS Slowhttptest,1219,2000
+DoS Slowloris,2799,2799
+FTP-Patator,2780,2780
+Heartbleed,8,2000
+Infiltration,25,2000
+Infiltration - Portscan,3317,3317
+Portscan,1169,2000
+SSH-Patator,2073,2073
+Web Attack - Brute Force,51,2000
+Web Attack - SQL Injection,9,2000
+Web Attack - XSS,13,2000

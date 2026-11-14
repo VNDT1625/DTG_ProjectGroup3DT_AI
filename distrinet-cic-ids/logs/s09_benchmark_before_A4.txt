@@ -1,0 +1,24 @@
+Mo hinh: XGBoost | file goc: 5,481 dong x 82 cot
+
+--- 100,000 dong | file CSV 39 MB ---
+  Doc CSV        0.4 s   bo nho dinh      83 MB
+  Kiem tra       0.4 s   bo nho dinh     141 MB
+  Du doan        0.5 s   bo nho dinh     328 MB
+  Xuat CSV      31.1 s   bo nho dinh     270 MB
+  TONG          32.4 s   | 3,090 dong/giay
+
+--- 500,000 dong | file CSV 196 MB ---
+  Doc CSV        2.4 s   bo nho dinh     415 MB
+  Kiem tra       2.0 s   bo nho dinh     710 MB
+  Du doan        2.5 s   bo nho dinh   1,617 MB
+  Xuat CSV     189.5 s   bo nho dinh   1,348 MB
+  TONG         196.4 s   | 2,546 dong/giay
+
+--- 1,000,000 dong | file CSV 393 MB ---
+  Doc CSV        7.1 s   bo nho dinh     831 MB
+  Kiem tra       6.8 s   bo nho dinh   1,418 MB
+  Du doan        7.4 s   bo nho dinh   3,233 MB
+  Xuat CSV     506.2 s   bo nho dinh   2,695 MB
+  TONG         527.5 s   | 1,896 dong/giay
+
+Da luu: reports/s09_benchmark.csv
